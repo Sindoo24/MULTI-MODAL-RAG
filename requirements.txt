@@ -1,0 +1,14 @@
+streamlit
+pymupdf
+pillow
+numpy
+scikit-learn
+python-dotenv
+langchain
+langchain-community
+langchain-core
+langchain-google-genai
+langchain-text-splitters
+transformers
+torch
+faiss-cpu
