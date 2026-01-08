@@ -1,0 +1,219 @@
+{
+    "document_name": "Qatar 2024 Article IV Consultation - IMF Staff Report",
+    "document_path": "qatar_test_doc.pdf",
+    "created_date": "2026-01-07",
+    "total_questions": 18,
+    "questions": [
+        {
+            "id": 1,
+            "category": "factual",
+            "question": "What is the projected real GDP growth for Qatar in 2024-25?",
+            "ground_truth_answer": "Real GDP growth is projected to improve to 2 percent in 2024-25, supported by public investment, spillovers from the ongoing LNG expansion project, and strong tourism.",
+            "relevant_pages": [
+                9,
+                10
+            ],
+            "context": "Real GDP growth is projected to improve to 2 percent in 2024–25, in line with staff's nowcasting estimates, as non-hydrocarbon growth gradually increases, supported by public investment, spillovers from the ongoing LNG expansion project, and strong tourism."
+        },
+        {
+            "id": 2,
+            "category": "numerical",
+            "question": "What was Qatar's current account surplus as a percentage of GDP in 2023?",
+            "ground_truth_answer": "The current account surplus was 17 percent of GDP in 2023, down from 27 percent of GDP in 2022.",
+            "relevant_pages": [
+                6,
+                7
+            ],
+            "context": "The current account surplus shrank from 27 percent of GDP in 2022 to a still sizeable 17 percent of GDP in 2023."
+        },
+        {
+            "id": 3,
+            "category": "factual",
+            "question": "What is the Third National Development Strategy (NDS3) and what is its main objective?",
+            "ground_truth_answer": "NDS3 is Qatar's development strategy launched in January 2024 that calls for a decisive transition from the costly state-driven growth model to a private sector-led one, with the state becoming an enabler. It aims to build a more sustainable, diversified, and knowledge-based economy.",
+            "relevant_pages": [
+                4,
+                5
+            ],
+            "context": "NDS3 (launched in January 2024) calls for a decisive transition from the costly state-driven growth model to a private sector-led one, with the state becoming an enabler. NDS3 is reform-focused, aiming to build a more sustainable and knowledge-based economy."
+        },
+        {
+            "id": 4,
+            "category": "numerical",
+            "question": "What was the headline inflation rate in Qatar in 2023 and what is it projected to be in 2024?",
+            "ground_truth_answer": "Headline inflation was 3.0 percent in 2023 (period average) and is projected to ease to 1 percent in 2024, before converging to around 2 percent over the medium term.",
+            "relevant_pages": [
+                5,
+                9
+            ],
+            "context": "Headline inflation declined from 5 percent in 2022 to 3.0 percent in 2023 (period average). It decelerated further to 1.2 percent in 2024 through October. Headline inflation will likely ease to 1 percent in 2024, before converging to 2 percent over the medium term."
+        },
+        {
+            "id": 5,
+            "category": "numerical",
+            "question": "What is the Capital Adequacy Ratio (CAR) of Qatar's banking sector as of Q3 2024?",
+            "ground_truth_answer": "The Capital Adequacy Ratio is close to 20 percent in the third quarter of 2024.",
+            "relevant_pages": [
+                7,
+                8
+            ],
+            "context": "Banks are well-capitalized, liquid, and profitable, with the capital adequacy ratio of close to 20 percent and return on equity of 14½ percent, respectively, in the third quarter of 2024."
+        },
+        {
+            "id": 6,
+            "category": "analytical",
+            "question": "What are the main downside risks to Qatar's economic outlook?",
+            "ground_truth_answer": "Main downside risks include: (1) sharper-than-expected global growth slowdown, (2) increased volatility in global financial conditions and commodity prices, (3) further worsening of geopolitical tensions and regional conflict affecting tourism and capital inflows, (4) weaknesses in the real estate sector, and (5) significant expansion of global natural gas supply putting downward pressure on prices.",
+            "relevant_pages": [
+                9,
+                10
+            ],
+            "context": "Main external downside risks include a sharper-than-expected global growth slowdown, increased volatility in global financial conditions and commodity prices, and further worsening of geopolitical tensions. The regional conflict has had limited impact on Qatar, but adds further to the downside risks through lower tourism and capital inflows, and more volatile hydrocarbon prices. Domestic downside risk stems mainly from further weaknesses in the real estate sector. Over the medium and long term, the expected significant expansion of global natural gas supply could exert downward price pressures."
+        },
+        {
+            "id": 7,
+            "category": "numerical",
+            "question": "What was Qatar's fiscal surplus as a percentage of GDP in 2023?",
+            "ground_truth_answer": "The fiscal surplus was 5.6 percent of GDP in 2023 (or 5½ percent), down from higher levels in 2022.",
+            "relevant_pages": [
+                7
+            ],
+            "context": "The overall fiscal surplus narrowed to 5.6 percent of GDP in 2023 and declined further in the first three quarters of 2024 as hydrocarbon revenues weakened."
+        },
+        {
+            "id": 8,
+            "category": "factual",
+            "question": "What is the expected increase in Qatar's LNG production capacity by 2030?",
+            "ground_truth_answer": "Qatar's North Field LNG production is expected to increase cumulatively by around 85 percent by 2030.",
+            "relevant_pages": [
+                9
+            ],
+            "context": "Medium-term growth is expected to accelerate (to an average of around 4¾ percent) on the back of massive North Field LNG production expansion (a cumulative increase of around 85 percent by 2030)."
+        },
+        {
+            "id": 9,
+            "category": "numerical",
+            "question": "What was the Non-Performing Loan (NPL) ratio in Qatar's banking sector in Q3 2024?",
+            "ground_truth_answer": "The sector-wide NPL ratio was 3.9 percent in Q3 2024, remaining broadly unchanged from previous periods. The provisioning coverage ratio is relatively high at above 80 percent.",
+            "relevant_pages": [
+                7,
+                8
+            ],
+            "context": "The sector-wide NPL ratio remained broadly unchanged at 3.9 percent in 2024Q3, but bank-level NPLs varied considerably, tilted to the weaker side. On the other hand, NPLs are relatively well provisioned, by more than 80 percent."
+        },
+        {
+            "id": 10,
+            "category": "multi-hop",
+            "question": "How did the 2022 FIFA World Cup impact Qatar's economy and what happened after the event?",
+            "ground_truth_answer": "The 2022 FIFA World Cup lifted non-hydrocarbon growth to 5.7 percent in 2022. After the event, growth normalization occurred with real GDP growth declining to 1.2 percent in 2023 (with non-hydrocarbon growth at 1.1 percent) as construction activities contracted and services growth moderated. However, tourism rose significantly, with visitor arrivals rising 60 percent from 2022 to 2023.",
+            "relevant_pages": [
+                5,
+                6
+            ],
+            "context": "Real GDP growth declined from 4.2 percent in 2022 (where World Cup-related activities lifted non-hydrocarbon growth to 5.7 percent) to 1.2 percent in 2023 (with non-hydrocarbon growth at 1.1 percent as construction activities contracted and services growth moderated). Tourism rose significantly since the World Cup, with visitor arrivals rising 60 percent from 2022 to 2023."
+        },
+        {
+            "id": 11,
+            "category": "analytical",
+            "question": "What fiscal reforms does the IMF recommend for Qatar?",
+            "ground_truth_answer": "The IMF recommends: (1) adopting a medium-term fiscal anchor based on the Permanent Income Hypothesis to ensure intergenerational equity, (2) accelerating revenue diversification by introducing a value-added tax (VAT), (3) broadening the corporate income tax, (4) enhancing spending efficiency and public investment management, (5) gradually aligning domestic energy prices with export prices, and (6) strengthening fiscal institutions and adopting a full-fledged medium-term fiscal framework with enhanced fiscal risk management.",
+            "relevant_pages": [
+                2,
+                11,
+                12
+            ],
+            "context": "Directors recommended adopting a medium-term fiscal anchor to help ensure intergenerational equity, and reiterated the need to accelerate revenue diversification, particularly by introducing the value-added tax. Directors highlighted the importance of improving spending efficiency and composition, particularly by enhancing public investment management. They welcomed the ongoing efforts to strengthen fiscal institutions and adopt a full-fledged medium-term fiscal framework with enhanced fiscal risk management."
+        },
+        {
+            "id": 12,
+            "category": "numerical",
+            "question": "What is the projected central government debt as a percentage of GDP by 2029?",
+            "ground_truth_answer": "Central government debt is set to gradually decline to around 36 percent of GDP by 2029, from 43 percent at end-2023.",
+            "relevant_pages": [
+                7,
+                9
+            ],
+            "context": "The central government debt remained largely unchanged in percent of GDP (43 percent at end-2023). Central government debt is set to gradually decline to around 36 percent of GDP by 2029."
+        },
+        {
+            "id": 13,
+            "category": "factual",
+            "question": "What measures did the Qatar Central Bank (QCB) implement to reduce banks' exposure to short-term foreign funding?",
+            "ground_truth_answer": "In early 2022, the QCB adjusted reserve requirements in foreign currencies for short-term non-resident deposits and the calculation of LCR and NSFR ratios using more conservative assumptions of outflow run-off rates. In late 2023, the QCB refined the reserve requirement to target banks' short-term foreign asset-liability mismatches.",
+            "relevant_pages": [
+                8
+            ],
+            "context": "In early 2022, the QCB adjusted reserve requirements in foreign currencies for short-term non-resident deposits and the calculation of LCR and NSFR ratios using more conservative assumptions of outflow run-off rates. In late 2023, the QCB refined the reserve requirement to target on banks' short-term foreign asset-liability mismatches."
+        },
+        {
+            "id": 14,
+            "category": "numerical",
+            "question": "What is the expected medium-term average GDP growth rate for Qatar?",
+            "ground_truth_answer": "Medium-term growth is expected to accelerate to an average of around 4¾ percent (4.75 percent), boosted by the significant LNG production expansion and initial gains from implementing NDS3 reforms.",
+            "relevant_pages": [
+                2,
+                9
+            ],
+            "context": "Medium-term growth is expected to accelerate to 4¾ percent on average, boosted by the significant LNG production expansion and initial gains from implementing reforms guided by the Third National Development Strategy (NDS3)."
+        },
+        {
+            "id": 15,
+            "category": "multi-hop",
+            "question": "What is the Permanent Income Hypothesis (PIH) benchmark and how does Qatar's fiscal position relate to it?",
+            "ground_truth_answer": "The PIH benchmark is a fiscal anchor designed to ensure intergenerational equity by maintaining constant real per-capita income. Despite moderate fiscal loosening in 2023, Qatar's non-hydrocarbon primary balance (NHPB) is estimated to remain consistent with the level suggested by the PIH benchmark. The PIH benchmark can serve as a medium-term fiscal anchor, and the NHPB is projected to improve by around ¾ percentage point of non-hydrocarbon GDP in 2024.",
+            "relevant_pages": [
+                11
+            ],
+            "context": "Despite a moderate fiscal loosening in 2023 amid slower growth, the NHPB is estimated to remain consistent with the level suggested by the Permanent Income Hypothesis (PIH), a benchmark to ensure intergenerational equity. The PIH-based benchmark can serve as a medium-term fiscal anchor to ensure intergenerational equity."
+        },
+        {
+            "id": 16,
+            "category": "analytical",
+            "question": "What structural reforms does the IMF recommend for Qatar to build a knowledge-based economy?",
+            "ground_truth_answer": "The IMF recommends: (1) enhancing human capital and innovation, (2) attracting and retaining more high-skilled expatriate workers, (3) improving Qatari nationals' employment in the private sector, (4) increasing female labor force participation, (5) promoting trade diversification and FDI with domestic knowledge spillovers, (6) improving business efficiency especially access to finance, (7) leveraging digitalization and AI for productivity gains, and (8) accelerating climate actions for sustainability and green growth.",
+            "relevant_pages": [
+                2,
+                3
+            ],
+            "context": "Directors supported the authorities' strategy to build a more diversified, private sector-led, and knowledge-based economy. They recommended fostering innovation and business efficiency and enhancing human capital by attracting and retaining more high-skilled expatriate workers, improving Qatari nationals' employment in the private sector, and further increasing female labor force participation. Qatar is well positioned to leverage digitalization and AI for productivity gains. Accelerating climate actions can strengthen sustainability and generate 'green' growth."
+        },
+        {
+            "id": 17,
+            "category": "summarization",
+            "question": "Summarize the key findings and recommendations from the IMF's 2024 Article IV Consultation with Qatar.",
+            "ground_truth_answer": "Key findings: Qatar shows continued resilience with favorable medium-term outlook driven by LNG expansion and NDS3 reforms. Growth is normalizing post-World Cup at 2% in 2024-25, accelerating to 4.75% medium-term. Banks are healthy with 20% CAR. Fiscal and current account surpluses are moderating but remain positive. Key recommendations: (1) maintain fiscal prudence and adopt PIH-based fiscal anchor, (2) accelerate revenue diversification including VAT introduction, (3) enhance spending efficiency, (4) maintain financial stability and deepen markets, (5) continue exchange rate peg, (6) accelerate NDS3 structural reforms for private sector-led growth, (7) improve human capital and innovation, (8) align domestic energy prices with export prices for climate goals.",
+            "relevant_pages": [
+                1,
+                2,
+                3
+            ],
+            "context": "Growth normalization after the 2022 FIFA World Cup continued, with signs of strengthening activities more recently. Real GDP growth is projected to improve gradually to 2 percent in 2024–25. Medium-term growth is expected to accelerate to 4¾ percent on average. Directors commended the authorities' commitment to continued fiscal prudence and called for accelerating fiscal reforms. They recommended adopting a medium-term fiscal anchor, accelerating revenue diversification particularly by introducing VAT, and improving spending efficiency. Directors supported maintaining financial stability, the exchange rate peg, and the strategy to build a more diversified, private sector-led, and knowledge-based economy."
+        },
+        {
+            "id": 18,
+            "category": "numerical",
+            "question": "What is the estimated size of Qatar Investment Authority's (QIA) foreign assets as a percentage of GDP in 2023?",
+            "ground_truth_answer": "Qatar Investment Authority's foreign assets are estimated to have exceeded 200 percent of GDP in 2023.",
+            "relevant_pages": [
+                6,
+                7
+            ],
+            "context": "This is complemented by the sizeable foreign assets held by Qatar Investment Authority (QIA), estimated to have exceeded 200 percent of GDP in 2023, through which a significant share of the hydrocarbon windfalls is invested abroad."
+        }
+    ],
+    "metadata": {
+        "document_type": "IMF Staff Report",
+        "report_date": "January 8, 2025",
+        "executive_board_date": "January 27, 2025",
+        "mission_dates": "November 10-21, 2024",
+        "key_topics": [
+            "GDP growth and economic outlook",
+            "Fiscal policy and revenue diversification",
+            "LNG production expansion",
+            "Third National Development Strategy (NDS3)",
+            "Banking sector health and financial stability",
+            "Inflation and monetary policy",
+            "Structural reforms and diversification"
+        ]
+    }
+}

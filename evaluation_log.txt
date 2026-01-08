@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/akhil838/Downloads/MULTI-MODAL-RAG-main/test_evaluation.py", line 16, in <module>
+    from rag_core import (
+  File "/home/akhil838/Downloads/MULTI-MODAL-RAG-main/rag_core.py", line 1, in <module>
+    import fitz
+ModuleNotFoundError: No module named 'fitz'
